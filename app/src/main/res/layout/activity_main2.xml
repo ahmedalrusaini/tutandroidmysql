@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.tutandroidmysql.Main2Activity"
+
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="ID:"
+        android:textSize="20mm"
+        />
+
+    <TextView
+        android:id="@+id/id_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="1005"
+        android:background="@color/colorAccent"
+        android:textSize="20mm"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="View All Info"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorAhmed"
+        android:onClick="viewallinfo"
+        android:textSize="5mm"/>
+
+</LinearLayout>

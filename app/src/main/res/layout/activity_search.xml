@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.tutandroidmysql.search"
+
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Search"
+        android:textSize="5mm"
+        android:textColor="@color/colortow"/>
+
+    <EditText
+        android:id="@+id/id_search_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textColor="@color/colortow"
+        android:textColorHint="@color/colortow"/>
+
+    <Button
+        android:id="@+id/id_btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textColor="@color/colortow"
+        android:onClick="search"/>
+
+    <TextView
+        android:id="@+id/id_search_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Search"
+        android:textSize="5mm"
+        android:textColor="@color/colortow"/>
+
+</LinearLayout>

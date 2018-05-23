@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Android MySQL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="android_mysql"><![CDATA[Android & MySQL]]></string>
+    <string name="concat">concatination</string>
+    <string name="android_studio">android studio</string>
+    <string name="is_best_ide">is best IDE</string>
+    <string name="enter_value_1">enter value 1</string>
+    <string name="enter_value_2">enter value 2</string>
+    <string name="plus">+</string>
+    <string name="is_on">Is On</string>
+    <string name="is_off">Is Off</string>
+    <string name="go_to_page_page2">Go To Page : Page2</string>
+    <string name="id">ID</string>
+    <string name="visible">visible</string>
+    <string name="gone">gone</string>
+    <string name="sqlite">SQLite</string>
+    <string name="mysql">mysql</string>
+</resources>

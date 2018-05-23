@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.tutandroidmysql.insertMysql"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type User"
+            />
+
+        <EditText
+            android:id="@+id/id_mysql_insert_newuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter username"
+            android:textColor="@color/colortow"
+            android:textColorHint="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type password"
+            />
+
+        <EditText
+            android:id="@+id/id_mysql_insert_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:textColor="@color/colortow"
+            android:textColorHint="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type email"
+            />
+
+        <EditText
+            android:id="@+id/id_mysql_insert_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter email"
+            android:textColor="@color/colortow"
+            android:textColorHint="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_mysql_insert_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="insert"
+        android:onClick="insertuser"/>
+
+</LinearLayout>

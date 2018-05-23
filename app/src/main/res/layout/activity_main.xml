@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.tutandroidmysql.MainActivity"
+
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/id_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/android_studio"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/id_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/is_best_ide" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/id_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/plus"/>
+
+            <ToggleButton
+                android:id="@+id/tgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/is_on"
+                android:textOff="@string/is_off"
+                android:onClick="tglchange"
+                />
+
+            <Switch
+                android:id="@+id/id_swich"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/visible"
+                android:textOff="@string/gone"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/id_radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/visible"
+                    android:onClick="radchange"/>
+
+                <RadioButton
+                    android:id="@+id/id_radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gone"
+                    android:onClick="radchange"/>
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/id_edit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_value_1"
+                android:textSize="20px"
+                />
+
+            <EditText
+                android:id="@+id/id_edit2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_value_2"
+                android:textSize="20px"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/android_mysql"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/id_btn_concat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/concat"
+            android:onClick="concat"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/go_to_page_page2"
+            android:onClick="gotopage2"
+            />
+
+        <Button
+            android:textColor="@color/colortow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sqlite"
+            android:onClick="sqlite"
+            />
+
+        <Button
+            android:textColor="@color/colortow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mysql"
+            android:onClick="mysql"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

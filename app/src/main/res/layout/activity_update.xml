@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.tutandroidmysql.update"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="UPDATE"
+        android:textColor="@color/colortow"
+        android:textSize="5mm"/>
+
+    <LinearLayout
+    android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:onClick="update"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/id_update_old"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter old Value"/>
+
+
+            <EditText
+                android:id="@+id/id_update_new"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter new username"/>
+
+        </LinearLayout>
+
+    </LinearLayout>>
+
+</LinearLayout>
